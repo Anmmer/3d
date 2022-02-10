@@ -17,6 +17,7 @@ import carImage from './images/car.png';
 import developingImage from './images/developing.png';
 import segmentFaultImage from './images/segmengfault.png';
 import humanImage from './images/human.png';
+import panda from './images/panda.png';
 import './index.css';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -32,6 +33,13 @@ const workList = [
     title: '数字城市',
     description: '🏙 3D数字城市 【⚠优化中】',
     image: cityImage,
+    three: true
+  },
+  {
+    link: '#/olympic',
+    title: '奥运冰墩墩',
+    description: '👻王廷玉最美，2022虎虎生威！',
+    image: panda,
     three: true
   },
   {
@@ -108,35 +116,28 @@ const workList = [
     description: '📷 林克【⚠优化中】',
     image: zeldaImage,
     three: true
-  },
-  {
-    link: '#/',
-    title: '远航：无尽的拉格朗日',
-    description: '开发中...',
-    image: developingImage,
-    three: true
-  },
-  {
-    link: '#/',
-    title: '探索：无人深空',
-    description: '开发中...',
-    image: developingImage,
-    three: true
-  },
-  {
-    link: '#/',
-    title: '着陆：失落的星球',
-    description: '开发中...',
-    image: developingImage,
-    three: true
-  },
-  {
-    link: '#/',
-    title: '航巡：迷失在黑洞',
-    description: '开发中...',
-    image: developingImage,
-    three: true
   }
+  // {
+  //   link: '#/',
+  //   title: '探索：无人深空',
+  //   description: '开发中...',
+  //   image: developingImage,
+  //   three: true
+  // },
+  // {
+  //   link: '#/',
+  //   title: '着陆：失落的星球',
+  //   description: '开发中...',
+  //   image: developingImage,
+  //   three: true
+  // },
+  // {
+  //   link: '#/',
+  //   title: '航巡：迷失在黑洞',
+  //   description: '开发中...',
+  //   image: developingImage,
+  //   three: true
+  // }
 ];
 
 export default class Home extends React.Component {
